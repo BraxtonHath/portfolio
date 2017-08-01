@@ -125,6 +125,8 @@
                 <hr />
             </div>
 
+
+            <form:form
             <div th:each="project : ${projects}" class="col-sm-4 text-center"><img class="img-responsive" src="http://placehold.it/750x450" alt="" />
                 <input type="checkbox" th:name="${project.title}">
                 <h3 th:text="${project.title}"></h3>
